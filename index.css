@@ -6,6 +6,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    background-color: #4242a7;
   }
   
   form div + div {
@@ -47,11 +48,14 @@ form {
   
   .button {
     /* Pour placer le bouton à la même position que les champs texte */
-    padding-left: 90px; /* même taille que les étiquettes */
+    padding-left: 90px; 
+    /* même taille que les étiquettes */
   }
   
   button {
     /* Cette marge supplémentaire représente grosso modo le même espace que celui
        entre les étiquettes et les champs texte */
     margin-left: .5em;
+    background-color: #4242a7;
+    color: aliceblue;
   }
